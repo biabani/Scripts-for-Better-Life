@@ -1,6 +1,7 @@
 import os
 import zipfile
 
+
 for fName in os.listdir("."):
     if os.path.isdir(fName): 
         for dirpath, dirnames, filenames in os.walk(fName):
